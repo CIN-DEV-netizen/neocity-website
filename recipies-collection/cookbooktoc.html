@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../stylesheet-global/global-navbar.css">
+    <title>Cookbook - Open Glade</title>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#" class="brand">Open Glade <span class="leaf">🌿</span></a>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../projects.html">Projects</a></li>
+            <li><a href="cookbooktoc.html" class="current-page" aria-current="page">Cookbook</a></li>
+            <li><a href="#" class="nav-cta">Join Now</a></li>
+        </ul>
+        <div class="mobile-toggle" id="menuToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <script>
+        const toggle = document.getElementById('menuToggle');
+        const menu = document.querySelector('.navbar ~ ul');
+
+        toggle.addEventListener('click', () => {
+            menu.classList.toggle('active');
+        });
+    </script>
+
+    <h1>Odin Recipes</h1>
+    <ul>
+        <li><a href="recipes/lasagna.html">lasagna</a>
+        <li><a href="recipes/creamy-garlic-pasta.html">Creamy garlic Pasta</a>
+        <li><a href="recipes/Lava-cake.html">Lava Cake</a>
+    </ul>
+</body>
+</html>

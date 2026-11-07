@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Glade - Home</title>
+    <link rel="stylesheet" href="stylesheet-global/global-navbar.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#" class="brand">Open Glade <span class="leaf">🌿</span></a>
+        <ul>
+            <li><a href="index.html" class="current-page" aria-current="page">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="recipies-collection/cookbooktoc.html">Cookbook</a></li>
+            <li><a href="#" class="nav-cta">Join Now</a></li>
+        </ul>
+        <div class="mobile-toggle" id="menuToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <script>
+        const toggle = document.getElementById('menuToggle');
+        const menu = document.querySelector('.navbar ~ ul');
+
+        toggle.addEventListener('click', () => {
+            menu.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
