@@ -30,11 +30,13 @@ body {
 /** nav bar styles**/
 #nav-bar {
     padding: 20px;
-    width: 700px;
+    width: 225px;
     border-style: groove;
     background-color: #1a5e4f;
     display: flex;
+    flex-shrink: 0;
     flex-direction: column;
+    min-height: 100vh;
 }
 #nav-bar a {
     text-decoration: none;
@@ -47,8 +49,24 @@ body {
 /**inner body styles**/
 #body {
     display: flex;
+    align-items: start;
+}
+.organizer-h {
+    display: flex;
 }
 #text-box {
-    text-align: center;
     background-color: #7DBF82;
+    padding: 10px;
+    margin: 20px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+}
+#text-box #title {
+    font-size: 28px;
+    font-weight: 600;
+}
+#text-box p {
+
 }
