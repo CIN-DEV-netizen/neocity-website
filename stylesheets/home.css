@@ -1,37 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-/** body styles **/
+
+/*global styles*/
 body {
-    margin: 0px;
     font-family: 'roboto', sans-serif;
     background-color: #0F3D20;
-    color: white;
+    color: #f5f5dc;
+    margin: 0px;
 }
 
-/** header styles **/
+#title {
+    font-size: 20px;
+    font-weight: 600;
+}
+/*misc CSS*/
+.organizer-h {
+    display: flex;
+    flex-direction: row;
+}
+.current-page {
+    color: #7DBF82;
+}
+
+/*element-specific --> header*/
 #header {
     background-color: #1A5E35;
     padding: 10px;
-
+    border-style: groove;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
+
 #header #title {
     background-color: #2D8653;
     padding: 10px;
+    border-style: groove;
     border-radius: 25px;
-    font-size: 20px;
-    font-weight: 600;
-    display: flex;
-    flex-wrap: wrap;
 }
 
-/** nav bar styles**/
+/*element-specific --> nav-bar*/
 #nav-bar {
+    background-color: #1A5E4F;
     padding: 20px;
-    width: 225px;
-    background-color: #1a5e4f;
+    width: 200px;
+    border-style: groove;
     display: flex;
     flex-shrink: 0;
     flex-direction: column;
@@ -39,33 +52,18 @@ body {
 }
 #nav-bar a {
     text-decoration: none;
-    color: white;
-}
-.current-page {
-    color: #7DBF82;
+    color: beige;
 }
 
-/**inner body styles**/
-#body {
-    display: flex;
-    align-items: start;
-}
-.organizer-h {
-    display: flex;
-}
-#text-box {
+
+/*text boxes*/
+#deco-box1 {
     background-color: #7DBF82;
     padding: 10px;
     margin: 20px;
     width: 500px;
+    border-style: groove;
+    border-radius: 25px;
     display: flex;
     flex-direction: column;
-    border-radius: 25px;
-}
-#text-box #title {
-    font-size: 28px;
-    font-weight: 600;
-}
-#text-box p {
-
 }
