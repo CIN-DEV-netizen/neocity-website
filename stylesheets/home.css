@@ -31,7 +31,6 @@ body {
 #nav-bar {
     padding: 20px;
     width: 225px;
-    border-style: groove;
     background-color: #1a5e4f;
     display: flex;
     flex-shrink: 0;
