@@ -45,6 +45,7 @@ body {
     padding: 20px;
     width: 200px;
     border-style: groove;
+    border-top-style: none;
     display: flex;
     flex-shrink: 0;
     flex-direction: column;
