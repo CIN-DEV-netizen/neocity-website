@@ -54,3 +54,41 @@ body {
     display: flex;
     flex-direction: row;
 }
+
+#text-box1 {
+    background-color: #7DBF82;
+    padding: 10px;
+    margin: 20px;
+    width: 500px;
+    border-style: groove;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-self: auto;
+}
+
+#vert-order {
+    display: flex;
+    flex-direction: column;
+}
+
+#vert-order #title {
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+#text-box1 #title {
+    text-align: center;
+    font-size: 30px;
+}
+
+#text-box1 a {
+    text-decoration: none;
+    color: #f5f5dc;
+}
+
+.organizer-h {
+    display: flex;
+    flex-direction: row;
+}
