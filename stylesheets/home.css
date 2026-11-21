@@ -18,9 +18,7 @@ body {
     display: flex;
     flex-direction: row;
 }
-.current-page {
-    color: #7DBF82;
-}
+
 
 /*element-specific --> header*/
 #header {
@@ -56,7 +54,9 @@ body {
     text-decoration: none;
     color: beige;
 }
-
+.current-page {
+    color: #7DBF82;
+}
 
 /*text boxes*/
 #text-box1 {
