@@ -46,6 +46,10 @@ body {
     color: beige;
 }
 
+.current-page {
+    color: #7DBF82;
+}
+
 .organizer-h {
     display: flex;
     flex-direction: row;
