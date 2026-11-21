@@ -10,7 +10,8 @@
 |[text-box1](#decorative-content-box-1-deco-box1) | ID | decorated text box|
 |MISC|
 |[body](#body)| ID | body section divider|
-|[organizer-h](#organizer-h)| CLASS | UI organizer for navbar & body
+|[organizer-h](#organizer-h)| CLASS | UI organizer for navbar & body|
+|[current-page](#misc)| CLASS | navbar current page highlighter|
 ## Boiler Plate
 **HTML**
 ```html
@@ -101,6 +102,9 @@ body {
 #nav-bar a {
     text-decoration: none;
     color: beige;
+}
+.current-page {
+    color: #7DBF82;
 }
 ```
 ## Body
